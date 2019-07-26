@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../layuiadmin/layui/css/layui.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/admin.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/xiangmu.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/style.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/skins.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/ryui.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/bootstrap.min.css" media="all">
+		<link rel="stylesheet" href="../../../layuiadmin/style/font-awesome.min.css" media="all">
+	</head>
+	<body>
+		<div class="gr_min">
+			<div class="gr_left">
+				<div class="gr_left_top">个人资料</div>
+				<div class="gr_touxiang"><img src="../../img/tux.png" class="layui-nav-img"/></div>
+				<div class="gr_xiugai">修改头像</div>
+				<div class="gr_xx">
+					<div class="gr_xx_left">登录名称：</div>
+					<div class="gr_xx_regit">admin</div>
+				</div>
+				<div class="gr_xx">
+					<div class="gr_xx_left">手机号码：</div>
+					<div class="gr_xx_regit">admin</div>
+				</div>
+				<div class="gr_xx">
+					<div class="gr_xx_left">所属部门：</div>
+					<div class="gr_xx_regit">研发部门/董事长</div>
+				</div>
+				<div class="gr_xx">
+					<div class="gr_xx_left">邮箱地址：</div>
+					<div class="gr_xx_regit">ry@163.com</div>
+				</div>
+				<div class="gr_xx">
+					<div class="gr_xx_left">创建地址：</div>
+					<div class="gr_xx_regit">2018-03-16</div>
+				</div>
+			</div>
+			<div class="gr_regit">
+				<div class="gr_regit_top">基本资料</div>
+				<div class="layui-tab">
+					  <ul class="layui-tab-title">
+						<li class="layui-this">基本资料</li>
+						<li>修改密码</li>
+					  </ul>
+					  <div class="layui-tab-content">
+						<div class="layui-tab-item layui-show">
+							<div class="gr_biaodan">
+								<ul>
+									<li class="gr_biaodan1">用户名称：</li>
+									<li class="gr_biaodan2"><input type=""/></li>
+								</ul>
+								<div class="blank"></div>
+								<ul>
+									<li class="gr_biaodan1">手机号码：</li>
+									<li class="gr_biaodan2"><input type=""/></li>
+								</ul>
+								<div class="blank"></div>
+								<ul>
+									<li class="gr_biaodan1">邮箱：</li>
+									<li class="gr_biaodan2"><input type=""/></li>
+								</ul>
+								<div class="blank"></div>
+								  <div class="layui-form-item">
+										<label class="layui-form-label">性别：</label>
+										<div class="layui-input-block" style="line-height: 38px;">
+										  <input type="radio" name="sex" value="男" title="男"> 男
+										  &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="女" title="女" checked> 女
+										</div>
+								  </div>
+								  	<div class="layui-btn" style="width: 55px; height: 25px; line-height: 25px; font-size: 12px; margin-left: 100px;" >保存</div>
+									<div class="layui-btn layui-btn-danger" style="width: 55px; height: 25px; line-height: 25px; font-size: 12px;" >关闭</div>
+							        <div class="blank"></div>
+							</div>
+						</div>
+						<div class="layui-tab-item">
+							<div class="gr_biaodan">
+								<ul>
+									<li class="gr_biaodan1">旧密码：</li>
+									<li class="gr_biaodan2"><input type=""/></li>
+								</ul>
+								<div class="blank"></div>
+								<ul>
+									<li class="gr_biaodan1">新密码：</li>
+									<li class="gr_biaodan2"><input type=""/></li>
+								</ul>
+								<div class="blank"></div>
+								<ul>
+									<li class="gr_biaodan1">确认密码：</li>
+									<li class="gr_biaodan2"><input type=""/></li>
+								</ul>
+								<div class="blank"></div>
+								  	<div class="layui-btn" style="width: 55px; height: 25px; line-height: 25px; font-size: 12px; margin-left: 100px;" >保存</div>
+									<div class="layui-btn layui-btn-danger" style="width: 55px; height: 25px; line-height: 25px; font-size: 12px;" >关闭</div>
+							        <div class="blank"></div>
+							</div>
+						</div>
+					  </div>
+                </div>
+			</div>
+		</div>
+		<script src="../../../layuiadmin/layui/layui.js"></script>
+		<script>
+			layui.use('element', function(){
+				  var element = layui.element;
+				  
+				  //…
+            });
+		</script>
+	</body>
+</html>
